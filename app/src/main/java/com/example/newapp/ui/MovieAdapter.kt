@@ -49,6 +49,8 @@ class MovieAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>(){
             }
         }
 
+
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         return MoviesViewHolder(
             ArticleItemLayoutBinding.inflate(
